@@ -1,0 +1,28 @@
+.App {
+  /* text-align: center; */
+}
+
+.load{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.grid-container {
+  width:98%;
+  margin: auto;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+h3{
+  color:grey
+}
